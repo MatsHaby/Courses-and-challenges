@@ -1,1 +1,1 @@
-Day 1 - [Expanding cards](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%201%20-%20exanding%20cards/)
+Day 1 - [Expanding cards](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%201%20-%20exanding%20cards/), [myversion](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%201%20-%20exanding%20cards/Myversion/)
