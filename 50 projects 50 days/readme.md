@@ -5,6 +5,7 @@
 Brad Traversy and Florin Pop
 
 https://www.udemy.com/course/50-projects-50-days/
+
 https://50projects50days.com/
 
 | Project                      | Original solution                                                                                                              | Extended solution                                                                                                             |
