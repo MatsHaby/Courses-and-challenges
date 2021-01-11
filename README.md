@@ -1,5 +1,6 @@
 # Courses and challenges
 
+![logo](logo.png)
 Here you will find courses or challanges I'm currently doing.
 
 | Course/challange                                                                                              | State      |
