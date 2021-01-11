@@ -8,9 +8,9 @@ https://www.udemy.com/course/50-projects-50-days/
 
 https://50projects50days.com/
 
-| Project                      | Original solution                                                                                                              | Extended solution                                                                                                             |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
-| Day 1 - Expanding cards      | [Expanding cards](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%201%20-%20exanding%20cards/)            | [Extended version](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%201%20-%20exanding%20cards/extended/) |
+| Project                      | Original solution                                                                                                              | Extended solution                                                                                                              |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| Day 1 - Expanding cards      | [Expanding cards](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%201%20-%20exanding%20cards/)            | [Extended solution](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%201%20-%20exanding%20cards/extended/) |
 | Day 2 - Progress Steps       | [Progress Steps](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%202%20-%20progress%20steps/)             |
 | Day 3 - Progress Steps       | [Rotating navigation](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%202%20-%20rotating%20navigation/)   |
 | Day 4 - Hidden search widget | [Hidden search widget](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%202%20-%hidden%20search%20widget/) |
