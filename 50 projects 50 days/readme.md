@@ -1,6 +1,7 @@
 # 50 Days 50 Projects
 
 ![logo](logo.jpeg)
+
 50 Days 50 Projects is a course on udemy where you can sharpen your skills and build 50 small projects with
 Brad Traversy and Florin Pop
 
