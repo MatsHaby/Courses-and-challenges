@@ -1,13 +1,15 @@
-﻿| Challenge                                                                                                                         | State |
-| --------------------------------------------------------------------------------------------------------------------------------- | ----- |
-| [01 - Javascript Drum kit](https://nifty-bassi-f7e468.netlify.app/javascript30/01%20-%20Javascript%20Drum%20kit/index-start.html) | ✅    |
-| 02 - JS and CSS clock                                                                                                             | 🎮    |
-| 03 - CSS Variables                                                                                                                |       |
+﻿My goal with this challenge is to complete the exercise alone then watch wes solution.
+
+| Challenge - My version                                                                                                            | State | Orignal solution                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------- | ----- | ---------------------------------------------------------------------------------------------------------------- |
+| [01 - Javascript Drum kit](https://nifty-bassi-f7e468.netlify.app/javascript30/01%20-%20Javascript%20Drum%20kit/index-start.html) | ✅    | [here](https://nifty-bassi-f7e468.netlify.app/javascript30/01%20-%20Javascript%20Drum%20kit/index-finished.html) |
+| [02 - JS and CSS clock](https://nifty-bassi-f7e468.netlify.app/javascript30/02%20-%20JS%20and%20css%20clock/index-start.html)     | ✅    | [here](https://nifty-bassi-f7e468.netlify.app/javascript30/02%20-%20JS%20and%20css%20clock/index-finished.html)  |
+| 03 - CSS Variables                                                                                                                | 🎮    |
 | 04 - Array Cardio Day 1                                                                                                           |       |
 | 05 - Flex Panel Gallery                                                                                                           |       |
 | 06 - Type Ahead                                                                                                                   |       |
 
-[comment]: <> (🎮 ✅)
+[comment]: <> (🎮 ✅ ✨)
 
 ![](https://javascript30.com/images/JS3-social-share.png)
 

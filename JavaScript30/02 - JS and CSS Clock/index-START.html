@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>JS + CSS Clock</title>
 </head>
+
 <body>
 
 
-    <div class="clock">
-      <div class="clock-face">
-        <div class="hand hour-hand"></div>
-        <div class="hand min-hand"></div>
-        <div class="hand second-hand"></div>
-      </div>
+  <div class="clock">
+    <div class="clock-face">
+      <div class="center"></div>
+      <div class="hand hour-hand"></div>
+      <div class="hand min-hand"></div>
+      <div class="hand second-hand"></div>
     </div>
+  </div>
 
 
   <style>
     html {
-      background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+      /* background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5); */
+      background: url(sw.jpeg);
       background-size: cover;
       font-family: 'helvetica neue';
       text-align: center;
@@ -32,28 +36,33 @@
       flex: 1;
       min-height: 100vh;
       align-items: center;
+
     }
 
     .clock {
       width: 30rem;
       height: 30rem;
-      border: 20px solid white;
+      border: 20px solid rgb(0, 0, 0);
       border-radius: 50%;
       margin: 50px auto;
       position: relative;
       padding: 2rem;
       box-shadow:
-        0 0 0 4px rgba(0,0,0,0.1),
-        inset 0 0 0 3px #EFEFEF,
+        0 0 0 4px rgba(0, 0, 0, 0.1),
+        inset 0 0 0 3px #95B4C7,
         inset 0 0 10px black,
-        0 0 10px rgba(0,0,0,0.2);
+        0 0 10px rgba(0, 0, 0, 0.2);
+      background-color: rgba(0, 0, 0, 0.7);
+
     }
 
     .clock-face {
       position: relative;
       width: 100%;
       height: 100%;
-      transform: translateY(-3px); /* account for the height of the clock hands */
+      transform: translateY(-3px);
+
+      /* account for the height of the clock hands */
     }
 
     .hand {
@@ -64,11 +73,67 @@
       top: 50%;
     }
 
+    .hour-hand,
+    .second-hand,
+    .min-hand {
+      transform-origin: right;
+
+    }
+
+    .hour-hand {
+      width: 35%;
+      left: 15%;
+      background: linear-gradient(110deg, #fd3b3b 60%, #ffed4b 60%);
+    }
+
+    .min-hand {
+      background: linear-gradient(110deg, #3b78fd 60%, #ffed4b 60%);
+    }
+
+    .second-hand {
+      background: linear-gradient(110deg, #00ff40 60%, #ffed4b 60%);
+    }
+
+    .center {
+      height: 15px;
+      width: 15px;
+      border-radius: 50px;
+      background-color: rgb(0, 0, 0);
+      position: absolute;
+      top: 48%;
+      left: 47%;
+      z-index: 10;
+
+
+    }
   </style>
 
   <script>
 
+    const hourHand = document.querySelector('.hour-hand');
+    const minHand = document.querySelector('.min-hand');
+    const secHand = document.querySelector('.second-hand');
+
+    let time = new Date()
+
+    function tickTack() {
+      let time = new Date()
+      // let second = 90 + (6 * time.getSeconds())
+      let second = ((time.getSeconds() / 60) * 360) + 90;
+      let min = ((time.getMinutes() / 60) * 360) + 90;
+      let hour = ((time.getHours() / 12) * 360) + 90;
+
+      secHand.style.transform = `rotate(${second}deg)`
+      minHand.style.transform = `rotate(${min}deg)`
+      hourHand.style.transform = `rotate(${hour}deg)`
+    }
+
+    window.setInterval(function (time) {
+      tickTack();
+    }, 1000)
+
 
   </script>
 </body>
+
 </html>
