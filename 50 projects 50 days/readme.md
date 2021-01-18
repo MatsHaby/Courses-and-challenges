@@ -1,5 +1,7 @@
 # 50 Days 50 Projects
 
+My goal with this course is to code along with Brad and learn some new tricks!
+
 ![logo](logo.jpeg)
 
 50 Days 50 Projects is a course on udemy where you can sharpen your skills and build 50 small projects with
