@@ -19,3 +19,4 @@ https://50projects50days.com/
 | Day 6 - Scroll animation     | [Scroll animation](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%206%20-%20scroll%20animation/)              |
 | Day 7 - Split Landing page   | [Split Landing page](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/day%207%20-%20split%20landing%20page/)        |
 | Day 8 - Form Wave Animation  | [Form Wave Animation](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/Day%208%20-%20Form%20Wave%20Animation/)      |
+| Day 49 - Todo List           | [Todo List](https://nifty-bassi-f7e468.netlify.app/50%20projects%2050%20days/Day%2049%20-%20Todo%20List/)                           |
