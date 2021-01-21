@@ -1,12 +1,12 @@
 ﻿My goal with this challenge is to complete the exercise alone then watch wes solution.
 
-| Challenge - My solution                                                                                                           | State | Provided solution                                                                                                |
-| --------------------------------------------------------------------------------------------------------------------------------- | ----- | ---------------------------------------------------------------------------------------------------------------- |
-| [01 - Javascript Drum kit](https://nifty-bassi-f7e468.netlify.app/javascript30/01%20-%20Javascript%20Drum%20kit/index-start.html) | ✅    | [here](https://nifty-bassi-f7e468.netlify.app/javascript30/01%20-%20Javascript%20Drum%20kit/index-finished.html) |
-| [02 - JS and CSS clock](https://nifty-bassi-f7e468.netlify.app/javascript30/02%20-%20JS%20and%20css%20clock/index-start.html)     | ✅    | [here](https://nifty-bassi-f7e468.netlify.app/javascript30/02%20-%20JS%20and%20css%20clock/index-finished.html)  |
-| [03 - CSS Variables](https://nifty-bassi-f7e468.netlify.app/javascript30/03%20-%20CSS%20Variables/index-START.html)               | ✅    | [here](https://nifty-bassi-f7e468.netlify.app/javascript30/03%20-%20CSS%20Variables/index-finished.html)         |
-| 04 - Array Cardio Day 1                                                                                                           | 🎮    |
-| 05 - Flex Panel Gallery                                                                                                           |       |
+| Challenge - My solution                                                                                                           | State | Provided solution                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------- | ----- | ----------------------------------------------------------------------------------------------------------------- |
+| [01 - Javascript Drum kit](https://nifty-bassi-f7e468.netlify.app/javascript30/01%20-%20Javascript%20Drum%20kit/index-start.html) | ✅    | [here](https://nifty-bassi-f7e468.netlify.app/javascript30/01%20-%20Javascript%20Drum%20kit/index-finished.html)  |
+| [02 - JS and CSS clock](https://nifty-bassi-f7e468.netlify.app/javascript30/02%20-%20JS%20and%20css%20clock/index-start.html)     | ✅    | [here](https://nifty-bassi-f7e468.netlify.app/javascript30/02%20-%20JS%20and%20css%20clock/index-finished.html)   |
+| [03 - CSS Variables](https://nifty-bassi-f7e468.netlify.app/javascript30/03%20-%20CSS%20Variables/index-START.html)               | ✅    | [here](https://nifty-bassi-f7e468.netlify.app/javascript30/03%20-%20CSS%20Variables/index-finished.html)          |
+| [04 - Array Cardio Day 1](https://nifty-bassi-f7e468.netlify.app/javascript30/04%20-%20Array%20Cardio%20Day%201/index-START.html) | ✅    | [here](https://nifty-bassi-f7e468.netlify.app/javascript30/04%20-%20Array%20Cardio%20Day%201/index-finished.html) |
+| 05 - Flex Panel Gallery                                                                                                           | 🎮    |
 | 06 - Type Ahead                                                                                                                   |       |
 
 [comment]: <> (🎮 ✅ ✨)

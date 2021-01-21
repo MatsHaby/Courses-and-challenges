@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Array Cardio 💪</title>
 </head>
+
+
 <body>
+
   <p><em>Psst: have a look at the JavaScript Console</em> 💁</p>
   <script>
     // Get your shorts on - this is an array workout!
     // ## Array Cardio Day 1
 
     // Some data we can work with
+
 
     const inventors = [
       { first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
@@ -34,32 +39,67 @@
       'Berne, Eric', 'Berra, Yogi', 'Berry, Wendell', 'Bevan, Aneurin', 'Ben-Gurion, David', 'Bevel, Ken', 'Biden, Joseph', 'Bennington, Chester', 'Bierce, Ambrose',
       'Billings, Josh', 'Birrell, Augustine', 'Blair, Tony', 'Beecher, Henry', 'Biondo, Frank'
     ];
-    
+
     // Array.prototype.filter()
     // 1. Filter the list of inventors for those who were born in the 1500's
+    let inventorsfith = inventors.filter((inventor) => inventor.year <= 1600 && inventor.year >= 1500)
+    console.log(inventorsfith)
 
     // Array.prototype.map()
     // 2. Give us an array of the inventors first and last names
 
+    let flNames = inventors.map((inventor) => `${inventor.first} ${inventor.last}`);
+    console.log(flNames);
+
     // Array.prototype.sort()
     // 3. Sort the inventors by birthdate, oldest to youngest
+
+    let birthdaysOrder = inventors.sort((firstPerson, lastPerson) => firstPerson.year > lastPerson.year ? 1 : -1);
+    console.log(birthdaysOrder);
+
 
     // Array.prototype.reduce()
     // 4. How many years did all the inventors live all together?
 
+    let totalYears = inventors.reduce((acc, cur) => {
+      return acc + (cur.passed - cur.year);
+    }, 0);
+    console.log(totalYears);
+
+
     // 5. Sort the inventors by years lived
+    let sortedLived = inventors.sort((a, b) => {
+      return (a.passed - a.year) > (b.passed - b.year) ? -1 : 1
+    })
+    console.log(sortedLived);
 
     // 6. create a list of Boulevards in Paris that contain 'de' anywhere in the name
     // https://en.wikipedia.org/wiki/Category:Boulevards_in_Paris
-
+    const links = Array.from(document.querySelectorAll('.mw-category-group a '));
+    const deWords = links
+      .map(link => link.textContent)
+      .filter(name => name.includes('de'))
 
     // 7. sort Exercise
     // Sort the people alphabetically by last name
+    const yep = people.sort((firstOne, lastOne) => {
+      let [aLast, aFfirst] = lastOne.split(', ')
+      let [bLast, bFirst] = firstOne.split(', ')
+      return aLast > bLast ? 1 : -1
+    })
 
     // 8. Reduce Exercise
     // Sum up the instances of each of these
-    const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck' ];
+    const data = ['car', 'car', 'truck', 'truck', 'bike', 'walk', 'car', 'van', 'bike', 'walk', 'car', 'van', 'car', 'truck'];
+
+    let wordCount = data.reduce((prevWord, nextWord) => {
+      prevWord[nextWord] = ++prevWord[nextWord] || 1
+      return prevWord
+    }, {})
+
+    console.log(wordCount);
 
   </script>
 </body>
+
 </html>
